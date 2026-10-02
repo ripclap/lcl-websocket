@@ -15,11 +15,11 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.81.0"),
-        .package(url: "https://github.com/apple/swift-nio-transport-services.git", from: "1.23.0"),
-        .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.28.0"),
-        .package(url: "https://github.com/apple/swift-log.git", from: "1.6.2"),
-        .package(url: "https://github.com/apple/swift-atomics.git", from: "1.2.0"),
+        .package(url: "https://github.com/ripclap/swift-nio.git", from: "2.81.0"),
+        .package(url: "https://github.com/ripclap/swift-nio-transport-services.git", from: "1.23.0"),
+        .package(url: "https://github.com/ripclap/swift-nio-ssl.git", from: "2.28.0"),
+        .package(url: "https://github.com/ripclap/swift-log.git", from: "1.6.2"),
+        .package(url: "https://github.com/ripclap/swift-atomics.git", from: "1.2.0"),
     ],
     targets: [
         .target(
