@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "LCLWebSocket",
     platforms: [
-        .macOS(.v10_15), .iOS(.v13), .watchOS(.v4), .tvOS(.v13), .visionOS(.v1),
+        .macOS(.v10_15), .iOS(.v13), .watchOS(.v9), .tvOS(.v13), .visionOS(.v1),
     ],
     products: [
         .library(
